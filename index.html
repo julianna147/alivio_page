@@ -14,9 +14,51 @@
     <title>Alivio</title>
   </head>
   <body>
-    <svg>
-      <use href="assets/sprites.svg#logo_icon"></use>
-    </svg>
+    <header class="header" aria-label="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <svg class="logo" aria-label="logo">
+            <use href="assets/sprites.svg#logo_icon"></use>
+          </svg>
+
+          <nav class="header__nav" aria-label="navigation">
+            <ul class="header__nav-list" aria-label="navigation list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Why Alivio</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Solutions</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Community</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__actions">
+            <button type="button" class="btn btn--signin">Sign in</button>
+            <button type="button" class="btn">Start Trial</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="hero" aria-label="hero section">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">Be aware, Manage well.</h1>
+          <p class="hero__desc" aria-label="main description">
+            Everyone experiences stress in different ways. Let Alivio guide you,
+            in a personalized journal experience, to overcome your stress.
+          </p>
+          <button class="btn">Find Your Way</button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
-<!-- <svg width="80" height="24"   ></svg> -->
